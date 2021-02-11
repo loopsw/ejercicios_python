@@ -4,7 +4,7 @@
 """
 
 IVA = 0.21
-precioProducto = input("Introduce un número entero: ")
+precioProducto = float(input("Introduce un número entero: "))
 precioIVA = precioProducto * IVA
 print("El precio del IVA es", precioIVA, "€")
  
